@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-app-ts-starter-template",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14"
+  },
+  "main": "out/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --fix --ext .js,.ts .",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "dev:server": "nodemon out/index.js",
+    "start": "node out/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.2"
+  }
+}
